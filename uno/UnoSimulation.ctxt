@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=UnoSimulation
+comment0.text=\n\ <p>An\ entire\ terminal-based\ simulation\ of\ a\ multi-game\ Uno\ match.\n\ Command-line\ switches\ can\ control\ certain\ aspects\ of\ the\ game.\ Output\ is\n\ provided\ to\ the\ screen\ about\ game\ flow\ and\ final\ scores.</p>\n\ @since\ 1.0\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\ \n\ Run\ an\ Uno\ simulation\ of\ some\ number\ of\ games\ pitting\ some\ set\ of\n\ opponents\ against\ each\ other.\ The\ mandatory\ command-line\ argument\n\ (numberOfGames)\ should\ contain\ an\ integer\ specifying\ how\ many\ games\n\ to\ play\ in\ the\ match.\ The\ optional\ second\ command-line\ argument\n\ should\ be\ either\ the\ word\ "verbose"\ or\ "quiet"\ and\ controls\ the\n\ magnitude\ of\ output.\n
+comment2.params=
+comment2.target=void\ loadPlayerData()
+numComments=3

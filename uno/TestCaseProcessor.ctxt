@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=TestCaseProcessor
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=classname
+comment2.target=TestCaseProcessor(java.lang.String)
+comment3.params=
+comment3.target=void\ doIt()
+comment4.params=hand\ upCard\ calledColor\ validPlays
+comment4.target=void\ testHand(java.util.List,\ Card,\ UnoPlayer.Color,\ java.util.ArrayList)
+numComments=5

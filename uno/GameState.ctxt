@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=GameState
+comment0.text=\n\ <p>A\ GameState\ object\ provides\ programmatic\ access\ to\ certain\ (legal)\n\ aspects\ of\ an\ Uno\ game,\ so\ that\ interested\ players\ can\ take\ advantage\ of\n\ that\ information.\ Note\ that\ not\ all\ aspects\ of\ a\ game's\ state\n\ (<i>e.g.</i>,\ the\ direction\ of\ play,\ whose\ turn\ it\ is\ next,\ the\ actual\n\ cards\ in\ each\ player's\ hand\ (\!),\ etc.)\ are\ reflected\ in\ the\ GameState\n\ object\ --\ only\ those\ for\ which\ it\ makes\ sense\ for\ a\ player\ to\ have\n\ access.</p>\n\ @since\ 2.0\n
+comment1.params=
+comment1.target=GameState()
+comment1.text=\n\ (Blank\ constructor,\ used\ only\ during\ testing.)\n
+comment2.params=game
+comment2.target=GameState(Game)
+comment2.text=\n\ Instantiate\ a\ new\ GameState\ object\ whose\ job\ it\ is\ to\ provide\ safe\n\ access\ to\ the\ Game\ object\ passed.\n
+comment3.params=
+comment3.target=int[]\ getNumCardsInHandsOfUpcomingPlayers()
+comment3.text=\n\ Return\ an\ array\ of\ ints\ indicating\ the\ number\ of\ cards\ each\ player\n\ has\ remaining.\ The\ array\ is\ ordered\ so\ that\ index\ 0\ has\ the\ count\n\ for\ the\ player\ who\ (barring\ action\ cards\ that\ might\ change\ it)\ will\n\ play\ next,\ index\ 1\ the\ player\ who\ (barring\ action\ cards)\ will\ play\n\ second,\ etc.\n
+comment4.params=
+comment4.target=int[]\ getTotalScoreOfUpcomingPlayers()
+comment4.text=\n\ Return\ an\ array\ of\ ints\ indicating\ the\ total\ overall\ score\ each\n\ player\ has.\ The\ array\ is\ ordered\ so\ that\ index\ 0\ has\ the\ count\n\ for\ the\ player\ who\ (barring\ action\ cards\ that\ might\ change\ it)\ will\n\ play\ next,\ index\ 1\ the\ player\ who\ (barring\ action\ cards)\ will\ play\n\ second,\ etc.\n
+comment5.params=
+comment5.target=UnoPlayer.Color[]\ getMostRecentColorCalledByUpcomingPlayers()
+comment5.text=\n\ Return\ the\ color\ most\ recently\ "called"\ (after\ playing\ a\ wild)\ by\n\ each\ opponent.\ If\ a\ given\ opponent\ has\ not\ played\ a\ wild\ card\ this\n\ game,\ the\ value\ will\ be\ Color.NONE.\ The\ array\ is\ ordered\ so\ that\n\ index\ 0\ has\ the\ count\ for\ the\ player\ who\ (barring\ action\ cards\ that\n\ might\ change\ it)\ will\ play\ next,\ index\ 1\ the\ player\ who\ (barring\n\ action\ cards)\ will\ play\ second,\ etc.\n
+comment6.params=
+comment6.target=java.util.List\ getPlayedCards()
+comment6.text=\n\ Return\ a\ list\ of\ <i>all</i>\ cards\ that\ have\ been\ played\ since\ the\n\ last\ time\ the\ deck\ was\ remixed.\ This\ allows\ players\ to\ "card\ count"\n\ if\ they\ choose.\n
+numComments=7
